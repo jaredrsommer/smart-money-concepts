@@ -18,7 +18,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=LONG_DESCRIPTION,
     packages=["smartmoneyconcepts"],
-    install_requires=["pandas==2.0.2", "numpy==1.24.3"],
+    install_requires=["pandas>=2.0.2", "numpy==1.24.3"],
     keywords=['smart', 'money', 'concepts', 'ict', 'indicators', 'trading', 'forex', 'stocks', 'crypto', 'order', 'blocks', 'liquidity'],
     url="https://github.com/joshyattridge/smartmoneyconcepts",
     classifiers=[
